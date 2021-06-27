@@ -1,8 +1,50 @@
-h1 {
-  color: royalblue;
-  font-family: "Roboto", sans-serif;
+:root {
+  --primary-color: #525a53;
+  --secondary-color: #f8f2ed;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Mrs Saint Delafield", cursive;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+header {
+  text-align: center;
+  width: 1440px;
+  height: 550px;
+  background-image: url(/images/loom-maos-textile-art.png);
+  color: var(--primary-color);
+}
+
+h1,
+p {
+  font-family: var(--primary-font);
+}
+
+header h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
+}
+
+h3 {
+  color: var(--primary-color);
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+.hero {
+  padding: 276px 423px;
 }
