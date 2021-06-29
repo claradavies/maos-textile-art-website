@@ -3,6 +3,7 @@
   --secondary-color: #f8f2ed;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Mrs Saint Delafield", cursive;
+  --terciary-font: "Montserrat", sans-serif;
 }
 
 body {
@@ -49,4 +50,16 @@ p {
 
 .hero {
   padding: 276px 423px;
+}
+
+.primary-button {
+  font-family: var(--terciary-font);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
 }
