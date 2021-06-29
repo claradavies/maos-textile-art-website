@@ -30,7 +30,7 @@ header h1 {
   line-height: 84px;
 }
 
-header h2 {
+h2 {
   font-size: 40px;
   font-family: var(--secondary-font);
 }
@@ -43,13 +43,13 @@ h3 {
 
 p {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
   color: var(--primary-color);
 }
 
 .hero {
-  padding: 276px 423px;
+  padding: 250px 423px;
 }
 
 .primary-button {
@@ -62,4 +62,17 @@ p {
   padding: 15px 30px;
   border-radius: 50px;
   text-decoration: none;
+}
+
+.description-section {
+  padding: 30px 150px;
+}
+
+.description {
+  padding: 70px 20px;
+}
+
+.description h2 {
+  font-size: 60px;
+  color: #cbb4a3;
 }
