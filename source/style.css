@@ -31,7 +31,7 @@ p {
   width: 1440px;
   height: 700px;
   background-repeat: no-repeat;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .section-2-home {
@@ -124,20 +124,15 @@ p {
 }
 
 @media (max-width: 768px) {
-  .header h1 {
-    font-size: 75px;
-  }
-
-  .header h2 {
-    font-size: 50px;
-  }
-
   .section-2-home {
     padding: 0 40px;
   }
 
   .description-section {
     padding: 0px 10px;
+  }
+
+  .description-section h2 {
     text-align: center;
   }
 
@@ -160,5 +155,10 @@ p {
 
   .about-description h3 {
     padding-top: 10px;
+  }
+
+  .portfolio-page,
+  .homepage {
+    padding: 30px 20px;
   }
 }
