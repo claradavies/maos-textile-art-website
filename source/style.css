@@ -166,7 +166,8 @@ p {
   }
 
   .portfolio-page,
-  .homepage {
+  .homepage,
+  .contact-page {
     padding: 30px 20px;
   }
 }
