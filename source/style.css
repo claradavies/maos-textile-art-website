@@ -104,7 +104,11 @@ p {
   color: #cbb4a3;
 }
 
-.about h2 {
+.about-page {
+  padding: 30px 150px;
+}
+
+.about-page h2 {
   font-size: 20px;
   color: var(--terciary-color);
 }
