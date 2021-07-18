@@ -62,7 +62,10 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.description-section {
+.description-section,
+.about-page,
+.portfolio-page,
+.contact-page {
   padding: 30px 150px;
 }
 
@@ -70,11 +73,6 @@ p {
   font-family: var(--secondary-font);
   font-size: 60px;
   color: #cbb4a3;
-}
-
-.about-page,
-.portfolio-page {
-  padding: 30px 150px;
 }
 
 .about-page h2 {
@@ -107,7 +105,8 @@ p {
   color: var(--terciary-color);
 }
 
-.portfolio-page h1 {
+.portfolio-page,
+.contact-page h1 {
   color: var(--terciary-color);
 }
 
@@ -121,6 +120,15 @@ li {
 p {
   opacity: 0.5;
   font-size: 16px;
+}
+
+.contact-page {
+  color: var(--primary-color);
+}
+
+.contact-page p {
+  display: inline;
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
