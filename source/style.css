@@ -72,7 +72,8 @@ p {
   color: #cbb4a3;
 }
 
-.about-page {
+.about-page,
+.portfolio-page {
   padding: 30px 150px;
 }
 
@@ -104,6 +105,22 @@ p {
 
 .social-icons a :hover {
   color: var(--terciary-color);
+}
+
+.portfolio-page h1 {
+  color: var(--terciary-color);
+}
+
+.portfolio-page h3,
+p,
+li {
+  color: var(--primary-color);
+}
+
+.portfolio-page li,
+p {
+  opacity: 0.5;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
