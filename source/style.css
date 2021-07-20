@@ -66,9 +66,7 @@ footer a {
 }
 
 .primary-button a :hover {
-  color: var(--primary-color);
-  background: var(--secondary-color);
-  border: 1px solid var(--primary-color);
+  color: yellow;
 }
 
 .description-section,
@@ -160,8 +158,9 @@ p {
   }
 
   .description-section,
-  .footer {
-    padding: 0px 10px;
+  .footer,
+  .portfolio-page {
+    padding: 0px 15px;
   }
 
   .description-section h2 {
@@ -187,5 +186,15 @@ p {
 
   .about-description h3 {
     padding-top: 10px;
+  }
+
+  .banner {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner {
+    max-width: 375px;
   }
 }
