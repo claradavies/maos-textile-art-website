@@ -74,7 +74,7 @@ footer a {
 .description-section,
 .about-page,
 .portfolio-page {
-  padding: 30px 150px;
+  padding: 30px 120px;
 }
 
 .description h2 {
@@ -154,16 +154,13 @@ p {
   color: var(--terciary-color) !important;
 }
 
-.footer-icons {
-    padding; 0 50px;
-}
-
 @media (max-width: 768px) {
   .section-2-home {
     padding: 0 40px;
   }
 
-  .description-section {
+  .description-section,
+  .footer {
     padding: 0px 10px;
   }
 
@@ -190,11 +187,5 @@ p {
 
   .about-description h3 {
     padding-top: 10px;
-  }
-
-  .portfolio-page,
-  .homepage,
-  .contact-page {
-    padding: 30px 20px;
   }
 }
