@@ -75,12 +75,13 @@ p {
 }
 
 .about-page h2 {
-  font-size: 20px;
+  font-size: 50px;
   color: var(--terciary-color);
+  padding-bottom: 60px;
 }
 
 .about-description h1 {
-  font-size: 65px;
+  font-size: 50px;
   color: var(--primary-color);
 }
 
@@ -107,6 +108,7 @@ p {
 .portfolio-page,
 .contact-page h1 {
   color: var(--terciary-color);
+  font-size: 50px;
 }
 
 .portfolio-page h3,
