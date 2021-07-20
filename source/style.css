@@ -65,10 +65,6 @@ footer a {
   text-decoration: none;
 }
 
-.primary-button a :hover {
-  color: yellow;
-}
-
 .description-section,
 .about-page,
 .portfolio-page {
