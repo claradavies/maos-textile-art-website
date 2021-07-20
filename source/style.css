@@ -24,6 +24,15 @@ p {
   color: var(--primary-color);
 }
 
+footer {
+  padding-top: 40px;
+}
+
+footer,
+footer a {
+  color: var(--primary-color);
+}
+
 .banner {
   background-image: url(/images/banner-site-maos.png);
   background-position: center center;
@@ -143,6 +152,10 @@ p {
 
 .active {
   color: var(--terciary-color) !important;
+}
+
+.footer-icons {
+    padding; 0 50px;
 }
 
 @media (max-width: 768px) {
